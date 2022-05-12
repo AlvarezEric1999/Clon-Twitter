@@ -1,0 +1,214 @@
+.header{
+    margin: 20px;
+}
+
+.header--icon{
+    color: var(--brand-color);
+    font-size: 40px;
+}
+
+.main--titles {
+    margin: 20px;
+}
+
+h1.titles--title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main-button{
+
+    padding: 10px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 5px 10px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+.main--button__white{
+
+    border: 1px solid gray;
+    background: white;
+}
+
+.main--button__blue{
+    
+    background-color: var(--brand-color);
+    color: white;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    
+}
+
+.main--division{
+    text-align: center;
+    
+}
+
+.text--link{
+    color: var(--brand-color);
+}
+
+.main--text{
+
+    font-size: 10px;
+    
+    margin: 20px;
+}
+
+.main-login h3{
+
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.main--background{
+    margin-top: 20px;
+    background-image: url("../background.png");
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--icon{
+
+    font-size: 200px;
+    color: white;
+}
+
+.footer{
+
+
+    margin-top: 20px;
+    padding:20px;
+    width: 100%;
+    
+    font-size: 10px;
+}
+
+.footer--items{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list--item{
+
+    margin: 5px 8px;
+
+}
+
+
+.list--item a {
+    color: #536471;
+}
+
+
+
+@media screen and (min-width:1024px)
+    {
+
+        .main{
+            display: flex;
+            flex-direction: row-reverse;
+            
+        }
+
+
+        .main--background{
+            
+            margin-top:0 ;
+            background-size: cover;
+            width: 80%;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .main--right-section{
+
+            width: 59%;
+            padding-left: 20px;
+        }
+
+        .header{
+
+            margin: 20px 0 20px 0 ;
+        }
+
+        .header--icon{
+            color: var(--brand-color);
+            font-size: 60px;
+        }
+
+        h1.titles--title{
+            font-size: 76px;
+            font-weight: bold;
+           
+        }
+
+        h2.titles--title{
+            margin-top: 40px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+
+        .main--division{
+
+            
+            width: 40%;
+            margin: 10px 0 10px 0;
+        }
+
+        .main--text{
+
+            width: 40%;
+            
+        }
+
+        .main--left-section{
+            width: 41%;
+        }
+
+        .main--background{
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .main-buttons{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .footer--icon{
+
+            font-size: 450px;
+            color: white;
+        }
+
+        .footer{
+
+
+            
+            padding:20px;
+            width: 90%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+
+        .list--item a {
+            color: black;
+            text-transform: capitalize;
+        }
+    }
